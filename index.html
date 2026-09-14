@@ -3,168 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Atividade Aula 05</title>
+    <title>Linha do Tempo dos Desenhos Animados</title>
 
-    <!-- 
-    CSS Parte da Elisa ;) 
-    -->
+    <!-- CSS Parte da Elisa ;) -->
+
     <link rel="stylesheet" href="Trabalho.css">
 </head>
 <body>
 
-    <!-- 
-    Cabeçalho do Site  
-    -->
-    
-     <header class="cabecalho">
+ <!-- Cabeçalho -->
+    <header class="cabecalho">
         <h1>Linha do Tempo dos Desenhos Animados da TV</h1>
         <p class="subtitulo">
-            Um Breve Resumo da Evolução dos desenhos animados que passaram na Televisão ao Longo dos Anos.<br>
+            Um breve resumo da evolução dos desenhos animados que passaram na Televisão ao longo dos anos.
         </p>
+
     </header>
 
-    <!-- 
-    Barra de Navegação de Links do Site 
-    -->
 
+    <!-- Barra de Navegação -->
     <nav class="barra-de-navegacao">
-            <a href="#esquerda">Link 1</a>
-            <a href="#central">Link 2</a>
-            <a href="#direita">Link 3</a>
-            <a href="#rodape">Link 4</a>
+        <a href="#era-30-50">1930 - 1950</a>
+        <a href="#era-60-70">1960 - 1970</a>
+        <a href="#era-80-90">1980 - 1990</a>
+        <a href="#era-2000">2000 ~ Atualidade</a>
     </nav>
 
-    <!-- 
-    Conteúdo Principal do Site 
-    -->
-    <div class="conteudos">
+    <!-- Container Principal -->
+    <div class="conteudo-principal">
         
-        <!-- 
-        Coluna Esquerda 
-        -->
+        <!-- Coluna Esquerda -->
+        <aside class="coluna-esquerda side">
+            <div class="bloco-lateral">
+                <h3>O Início Experimental</h3>
+                <p><b>Anos 1930 - 1950</b></p>
+                <p>Animações manuais e a transição das telas de cinema para os primeiros aparelhos de televisão.</p>
+            </div>
 
-        <div class="coluna-esquerda" id="esquerda">
-            <h3>O Início Experimental e a Transição do Cinema</h3>
-            <p><b>Anos 1930 - 1950</b></p>
 
-            <h3>A Era de Ouro da TV e a Animação Limitada</h3>
-            <p><b>Anos 1960 - 1970</b></p>
 
-            <h3>Comercialização, Animes e a Revolução Digital</h3>
-            <p><b>Anos 1980 - 1990</b></p>
+            <div class="bloco-lateral">
+                <h3>A Era de Ouro da TV</h3>
+                <p><b>Anos 1960 - 1970</b></p>
+                <p>Popularização da TV colorida e o nascimento da técnica de animação limitada.</p>
+            </div>
 
-            <h3>Presente: Era 100% Digital, Widescreen e Streaming</h3>
-            <p><b>Anos 2000 </b></p>
-        </div>
+            <div class="bloco-lateral">
+                <h3>Revolução Digital</h3>
+                <p><b>Anos 1980 - 1990</b></p>
+                <p>Comercialização de brinquedos, expansão dos animes e início da colorização por computador.</p>
+            </div>
 
-        <!-- 
-        Coluna Central 
-        -->
+
+            <div class="bloco-lateral">
+                <h3>Era 100% Digital</h3>
+                <p><b>Anos 2000 ~ Atualidade</b></p>
+                <p>Mesas digitalizadoras, alta definição em Widescreen e o domínio do streaming.</p>
+            </div>
+
+
+        </aside>
+
+
+
+        <!-- Coluna Central -->
+        <main class="coluna-central main">
+            
+            <article class="bloco-conteudo" id="era-30-50">
+                <h2>1930 - 1950: O Início Experimental</h2>
+                <p>
+                    Os desenhos animados nasceram nas telas de cinema e começaram a migrar para a televisão de forma 
+                    experimental na década de 1930. Tecnologicamente, as transmissões eram em preto e branco, com 
+                    baixíssima resolução. A produção das animações era um processo puramente artesanal e exaustivo: 
+                    cada quadro era desenhado e pintado à mão em folhas transparentes de acetato.
+                </p>
+                <div class="galeria-imagens">
+                    <img src="sddefault.jpg" alt="Mickey Mouse">
+                    <img src="Popeye.webp" alt="Popeye">
+                    <img src="Betty-boop.jpg" alt="Betty Boop">
+                </div>
+            </article>
+
+            <article class="bloco-conteudo" id="era-60-70">
+                <h2>1960 - 1970: A Era de Ouro da TV</h2>
+                <p>
     
-        <main class="coluna-central" id="central">
-            <h3>1930 - 1950</h3>
-            <p>
-                   Os desenhos animados nasceram nas telas de cinema e começaram a migrar para a televisão de forma 
-                experimental na década de 1930. Tecnologicamente, as transmissões eram em preto e branco, com 
-                baixíssima resolução e exibidas através de tubos de raios catódicos primitivos. A produção das 
-                animações era um processo puramente artesanal e exaustivo: cada quadro era desenhado e pintado à 
-                mão em folhas transparentes de acetato (chamadas de células de animação) e depois fotografado um
-                a um para simular o movimento.
-            </p>
-            <img width="350px" src="sddefault.jpg" alt="Mickey Mouse">
-            <img width="350px" src="Popeye.webp" alt="Popeye">
-            <img width="350px" src="Betty-boop.jpg" alt="Betty Boop">
+                    Esta era foi marcada pela popularização em massa da televisão colorida, transformando os desenhos no principal 
+                    produto infantil e abrindo espaço no horário nobre. Para suprir a enorme demanda da TV e baratear os custos, 
+                    os estúdios criaram a técnica da "Animação Limitada", reaproveitando cenários de fundo e animando apenas partes 
+                    específicas dos personagens.
+                </p>
+                <div class="galeria-imagens">
+                    <img src="Scooby.jpg" alt="Scooby-Doo">
+                    <img src="Flintstones.jpg" alt="Os Flintstones">
+                    <img src="Jetsons.jpg" alt="Os Jetsons">
+                </div>
 
-            <h3>1960 - 1970</h3>
-            <p>
-                  Esta era foi marcada pela popularização em massa da televisão colorida, transformando os desenhos no principal 
-                produto infantil e abrindo espaço no horário nobre. Para suprir a enorme demanda da TV e baratear os custos
-                (já que o método tradicional do cinema era caro demais), os estúdios criaram a técnica da "Animação Limitada".
-                Essa tecnologia de produção consistia em reaproveitar cenários de fundo e animar apenas partes específicas dos
-                personagens, como a boca se mexendo enquanto o corpo ficava completamente estático.
-            </p>
-            <img width="350px" src="Scooby.jpg" alt="Scooby-Doo">
-            <img width="350px" src="Flintstones.jpg" alt="Os Flintstones">
-            <img width="350px" src="Jetsons.jpg" alt="Os Jetsons">
+            </article>
 
-            <h3>1980 - 1990</h3>
-            <p>
-                  Os anos 80 foram dominados por desenhos financiados por indústrias de brinquedos e pela forte terceirização da mão 
-                de obra para estúdios asiáticos. Já nos anos 90, a tecnologia mudou drasticamente com a introdução da Computação 
-                Gráfica (CGI) e de softwares de colorização digital. O processo manual de pintar plásticos com pincel foi extinto, 
-                dando lugar ao escaneamento de traços e preenchimento de cor nos computadores. Foi também o período da explosão 
-                global dos animes e do surgimento das animações de sucesso voltadas exclusivamente para adultos.
-            </p>
-            <img width="350px" src="He-man.jpg" alt="He-man">
-            <img width="350px" src="pokemon.avif" alt="Pokemon">
-            <img width="350px" src="coragem.webp" alt="Coragem o Cão Covarde">
 
-            <h3>2000 ~ Atualidade</h3>
-            <p>
-                   Nesta era atual, o papel foi quase totalmente aposentado no fluxo de trabalho principal. Os desenhos passaram a
-                 ser criados diretamente em mesas digitalizadoras usando softwares de animação vetorial 
-                 (como o Adobe Animate e Toon Boom) ou modelagem totalmente em 3D. As transmissões abandonaram o formato quadrado
-                  antigo (4:3) para adotar o Widescreen (16:9) em Alta Definição (HD, 4K e HDR). Além disso, a distribuição mudou 
-                  drasticamente: o foco saiu dos canais de TV aberta e cabo e migrou para as plataformas de streaming, permitindo 
-                  roteiros mais complexos, contínuos e sem episódios repetidos.
-            </p>
-            <img width="350px" src="Gravity Falls.jpg" alt="Gravity Falls">
-            <img width="350px" src="Avatar.jpg" alt="Avatar">
-            <img width="350px" src="Gumball.webp" alt="O Incrivel mundo de Gumball">
-            <img width="350px" src="steven.jpg" alt="Steven Universo">
-            <img width="350px" src="Over the garden wall.jpg" alt="Over the garden wall">
+
+            <article class="bloco-conteudo" id="era-80-90">
+                <h2>1980 - 1990: Comercialização e Transição Digital</h2>
+                <p>
+                    Os anos 80 foram dominados por desenhos financiados por indústrias de brinquedos e pela forte terceirização da mão 
+                    de obra. Já nos anos 90, a tecnologia mudou drasticamente com a introdução da Computação Gráfica (CGI) e de softwares 
+                    de colorização digital. Foi também o período da explosão global dos animes e das animações para adultos.
+                </p>
+                <div class="galeria-imagens">
+                    <img src="He-man.jpg" alt="He-man">
+                    <img src="pokemon.avif" alt="Pokémon">
+                    <img src="coragem.webp" alt="Coragem o Cão Covarde">
+                </div>
+            </article>
+
+            <article class="bloco-conteudo" id="era-2000">
+                <h2>2000 ~ Atualidade: Era Digital e Streaming</h2>
+                <p>
+                    Nesta era atual, os desenhos passaram a ser criados diretamente em mesas digitalizadoras usando softwares de animação 
+                    vetorial ou modelagem em 3D. As transmissões abandonaram o formato antigo (4:3) para adotar o Widescreen (16:9) em Alta 
+                    Definição (HD/4K). Além disso, a distribuição migrou da TV aberta para as plataformas de streaming.
+                </p>
+                <div class="galeria-imagens">
+                    <img src="Gravity Falls.jpg" alt="Gravity Falls">
+                    <img src="Avatar.jpg" alt="Avatar">
+                    <img src="Gumball.webp" alt="O Incrível Mundo de Gumball">
+                    <img src="Over the garden wall.jpg" alt="Over the Garden wall">
+                    <img src="steven.jpg" alt="Steven Universo">
+                </div>
+            </article>
 
         </main>
 
-        <!-- 
-        Coluna Direita 
-        -->
-    
-        <div class="coluna-direita" id="direita">
-            <h3>Melhores Desenhos:<br>1930 - 1950</h3>
-            <ol> 
-                <li>O Gato Félix (O primeiro a aparecer em testes de TV)</li>
-                <li>Tom & Jerry</li>
-                <li>O Pica-Pau</li>
-                <li>Looney Tunes (Pernalonga e Patolino)</li>
-                <li>Popeye</li>
-            </ol>
+        <!-- Coluna Direita -->
+        <aside class="coluna-direita side-2">
+            <div class="bloco-lateral">
+                <h3>Melhores: 1930 - 1950</h3>
+                <ol> 
+                    <li>O Gato Félix</li>
+                    <li>Tom & Jerry</li>
+                    <li>O Pica-Pau</li>
+                    <li>Looney Tunes</li>
+                    <li>Popeye</li>
+                </ol>
 
-            <h3>Melhores Desenhos:<br>1960 - 1970</h3>
-            <ol>
-                <li>Os Flintstones (Primeiro desenho no horário nobre)</li>
-                <li>Scooby-Doo, Cadê Você?</li>
-                <li>Os Jetsons</li>
-                <li>A Pantera Cor-de-Rosa</li>
-                <li>Corrida Maluca</li>
-            </ol>
+            </div>
 
-            <h3>Melhores Desenhos:<br>1980 - 1990</h3>
-            <ol>
-                <li>Os Simpsons</li>
-                <li>Dragon Ball Z</li>
-                <li>Os Cavaleiros do Zodíaco</li>
-                <li>He-Man e os Defensores do Universo</li>
-                <li>Pokémon</li>
-            </ol>
 
-            <h3>Melhores Desenhos:<br>2000 ~ Atualidade</h3>
-            <ol>
-                <li>Gravity Falls: Um Verão de Mistérios</li>
-                <li>Avatar: A Lenda de Aang</li>
-                <li>Ben 10</li>
-                <li>Hora de Aventura</li>
-                <li>Bob Esponja Calça Quadrada</li>
-            </ol>
-        </div>
+
+            <div class="bloco-lateral">
+                <h3>Melhores: 1960 - 1970</h3>
+                <ol>
+
+                    <li>Os Flintstones</li>
+                    <li>Scooby-Doo</li>
+                    <li>Os Jetsons</li>
+                    <li>A Pantera Cor-de-Rosa</li>
+                    <li>Corrida Maluca</li>
+                </ol>
+
+            </div>
+
+
+            <div class="bloco-lateral">
+                <h3>Melhores: 1980 - 1990</h3>
+                <ol>
+                    <li>Os Simpsons</li>
+                    <li>Dragon Ball Z</li>
+                    <li>Cavaleiros do Zodíaco</li>
+                    <li>He-Man</li>
+                    <li>Pokémon</li>
+                </ol>
+            </div>
+
+            <div class="bloco-lateral">
+                <h3>Melhores: 2000 ~ Atual</h3>
+                <ol>
+                    <li>Gravity Falls</li>
+                    <li>Avatar: A Lenda de Aang</li>
+                    <li>Ben 10</li>
+                    <li>Hora de Aventura</li>
+                    <li>Bob Esponja</li>
+                </ol>
+                
+            </div>
+        </aside>
+
     </div>
 
-    <!--
-    Rodapé do Site 
-    -->
-    <footer class="rodape" id="rodape">
-        <p><i>&copy; 2026 - Atividade Aula 05 <b>Tecnologias Web</b><br>HTML Feito por <b>Marcos Vinicios</b><br>CSS Feito por <b>Elisa Alves</b></i></p>
+
+    <!-- Rodapé -->
+
+    <footer class="rodape footer">
+        <p>&copy; 2026 - Atividade Aula 05 <b>Tecnologias Web</b></p>
+        <p>HTML Feito por <b>Marcos Vinicios</b><br>CSS Feito por <b>Elisa Alves</b></p>
     </footer>
     
+
 </body>
 </html>
