@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;  
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 15px;
+    text-align:left;
+    align-items: stretch;
+    height: 50px;
+    font-size: medium;
+    color: white;
+}
+nav a {
+    background-color: #551A8B;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    flex-grow: 0;
+}
+nav a:hover {
+    background-color: #8a2be2;
+    transform: translateY(-1px)
+}
+.conteudos{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+
+}
+    .coluna-esquerda{
+        background-color:rgb(158, 85, 85);
+        justify-content:flex-start;
+        border-radius: 20px;
+        margin: 20px;;
+        padding: 30px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .coluna-direita{
+        background-color: rgb(95, 95, 184);
+        justify-content: flex-end;
+        border-radius: 20px;
+        padding: 30px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .coluna-central{
+        background-color: rgb(103, 40, 151);
+        justify-content: left;
+        border-radius: 20px;
+        padding: 30px;
+        font-size: 30px;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+.coluna-central img {
+    display: inline-block;
+    max-width: 350px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* 
+Implementação do Site se Ajustar com a Resolução e Tamanho da Tela
+Di Nadi :3
+ */
+@media screen and (max-width: 700px) {
+    .cabecalho {
+     flex-direction: column;   
+    }
+    .barra-de-navegacao {
+        flex-direction: column; 
+    }
+    .conteudos {
+        flex-direction: column;
+    }
+    .rodape {
+        flex-direction: column;
+    } 
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    font-size: small;
+    color: white;
+    border-radius: 20px;
+
+}
