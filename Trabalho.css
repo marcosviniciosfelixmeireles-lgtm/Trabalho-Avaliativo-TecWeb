@@ -204,3 +204,127 @@ body {
         height: auto;
     }
 }
+/* Formulario - Parte do Marcos */
+
+.formulario {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.formulario h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form label,.titulo {
+    color: #333333;
+}
+
+.form input[type="text"],.form select,.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form input[type="text"]:focus,.form select:focus,.form textarea:focus {
+    border-color: blueviolet;
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.4);
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.opcao input[type="radio"] {
+    width: auto;
+    cursor: pointer;
+}
+
+.opcao label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.enviar,.limpar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+.enviar:hover {
+    background-color: #7a22cb;
+}
+
+.limpar {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.limpar:hover {
+    background-color: #c0392b;
+}
+
+/* Tabela parte da Elisa */
+
+.tabela {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+th, td {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    text-align: left;
+}
+
+table,th{
+    border: 5px solid blueviolet;
+    border-collapse: collapse;
+    background-color: #d39ff9;
+    color: rgb(10, 10, 10);
+    align-items: center;
+    margin: 0 auto;
+}
+caption{
+    font-size: 15px;
+}

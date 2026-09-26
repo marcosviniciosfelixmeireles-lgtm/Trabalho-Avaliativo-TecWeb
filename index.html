@@ -27,6 +27,8 @@
         <a href="#era-60-70">1960 - 1970</a>
         <a href="#era-80-90">1980 - 1990</a>
         <a href="#era-2000">2000 ~ Atualidade</a>
+        <a href="#tabela">Tabela</a>
+        <a href="#formulario">Formulário</a>
     </nav>
 
     <!-- Container Principal -->
@@ -191,6 +193,199 @@
 
     </div>
 
+    <!-- Tabela - Parte da Elisa -->
+
+    <section id="tabela" class="secao-tabela">
+        <h2>Tabela dos Desenhos Animados</h2>
+        <table>
+            <caption><b>Resumo de Lançamento e Avaliação</b></caption>
+            <thead>
+                <tr>
+                    <th>Desenho animado</th>
+                    <th>Protagonistas</th>
+                    <th>Ano de Lançamento</th>
+                    <th>Nota no IMDb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>O Gato Félix</td>
+                    <td>Félix</td>
+                    <td>1919</td>
+                    <td>6,7/10</td>
+                </tr>
+                <tr>
+                    <td>Tom & Jerry</td>
+                    <td>Tom e Jerry</td>
+                    <td>1940</td>
+                    <td>8,4/10</td>
+                </tr>
+                <tr>
+                    <td>O Pica-Pau</td>
+                    <td>Pica-pau</td>
+                    <td>1957</td>
+                    <td>7,0/10</td>
+                </tr>
+                <tr>
+                    <td>Looney Tunes</td>
+                    <td>Pernalonga e Patolino</td>
+                    <td>1930</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Popeye</td>
+                    <td>Popeye</td>
+                    <td>1933</td>
+                    <td>7,6/10</td>
+                </tr>
+                <tr>
+                    <td>Os Flintstones</td>
+                    <td>Fred Flintstone</td>
+                    <td>1960</td>
+                    <td>7,5/10</td>
+                </tr>
+                <tr>
+                    <td>Scooby-Doo, Cadê Você?</td>
+                    <td>Scooby-Doo e a Mistério S/A</td>
+                    <td>1969</td>
+                    <td>7,9/10</td>
+                </tr>
+                <tr>
+                    <td>Os Jetsons</td>
+                    <td>George Jetson</td>
+                    <td>1962</td>
+                    <td>7,0/10</td>
+                </tr>
+                <tr>
+                    <td>A Pantera Cor-de-Rosa</td>
+                    <td>Pantera Cor-de-Rosa</td>
+                    <td>1969</td>
+                    <td>7,6/10</td>
+                </tr>
+                <tr>
+                    <td>Corrida Maluca</td>
+                    <td>Dick Vigarista e Penélope Charmosa</td>
+                    <td>1968</td>
+                    <td>7,5/10</td>
+                </tr>
+                <tr>
+                    <td>Os Simpsons</td>
+                    <td>Homer Simpson</td>
+                    <td>1989</td>
+                    <td>8,6/10</td>
+                </tr>
+                <tr>  
+                    <td>Dragon Ball Z</td>
+                    <td>Goku</td>
+                    <td>1989</td>
+                    <td>8,8/10</td>
+                </tr>
+                <tr>
+                    <td>Cavaleiros do Zodíaco</td>
+                    <td>Seiya de Pégaso</td>
+                    <td>1986</td>
+                    <td>8,4/10</td>
+                </tr>
+                <tr> 
+                    <td>He-Man e os Defensores do Universo</td>
+                    <td>He-man</td>
+                    <td>1983</td>
+                    <td>7,6/10</td>
+                </tr>
+                <tr>
+                    <td>Pokémon</td>
+                    <td>Ash Ketchum e Pikachu</td>
+                    <td>1997</td>
+                    <td>7,6/10</td>
+                </tr>
+                <tr>
+                    <td>Gravity Falls</td>
+                    <td>Dipper e Mabel Pines</td>
+                    <td>2012</td>
+                    <td>8,9/10</td>
+                </tr>
+                <tr>
+                    <td>Avatar: A Lenda de Aang</td>
+                    <td>Aang</td>
+                    <td>2005</td>
+                    <td>9,3/10</td>
+                </tr>
+                <tr>
+                    <td>Ben 10</td>
+                    <td>Ben Tennyson</td>
+                    <td>2005</td>
+                    <td>7,6/10</td>
+                </tr>
+                <tr>
+                    <td>Hora de Aventura</td>
+                    <td>Finn e Jake</td>
+                    <td>2010</td>
+                    <td>8,7/10</td>
+                </tr>
+                <tr>
+                    <td>Bob Esponja Calça Quadrada</td>
+                    <td>Bob Esponja</td>
+                    <td>1999</td>
+                    <td>8,2/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+    <!-- Formulário - Parte do Marcos -->
+    <section id="formulario" class="formulario">
+        <h2>Criar Conta / Cadastro</h2>
+        
+        <form action="https://httpbin.org/post" method="POST" class="form-container">
+            
+            <div class="form">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required minlength="3" maxlength="50">
+            </div>
+            
+            <div class="form">
+                <label for="assunto">Época Favorita:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione a sua época favorita...</option>
+                    <option value="anos-30-50">Anos 30 a 50 (Ex: Mickey, Tom & Jerry)</option>
+                    <option value="anos-60-70">Anos 60 a 70 (Ex: Os Flintstones, Scooby-Doo)</option>
+                    <option value="anos-80-90">Anos 80 a 90 (Ex: Pokémon, Cavaleiros do Zodíaco)</option>
+                    <option value="anos-2000">Anos 2000 em diante (Ex: Ben 10, Gravity Falls)</option>
+                </select>
+            </div>
+            
+            <div class="form">
+                <p class="titulo">Tipo de Perfil:</p>            
+                
+                <div class="opcao">
+                    <input type="radio" id="excelente" name="avaliacao" value="leitor" required>
+                    <label for="excelente">Leitor / Fã</label>
+                </div>
+                
+                <div class="opcao">
+                    <input type="radio" id="bom" name="avaliacao" value="criador">
+                    <label for="bom">Criador de Conteúdo</label>
+                </div>
+                
+                <div class="opcao">
+                    <input type="radio" id="regular" name="avaliacao" value="colecionador">
+                    <label for="regular">Colecionador</label>
+                </div>
+            </div>
+            
+            <div class="form">
+                <label for="mensagem">Biografia / Sobre você:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte um pouco sobre sua relação com desenhos animados..." required maxlength="300"></textarea>
+            </div>
+            
+            <div class="botoes">
+                <button type="submit" class="enviar">Cadastrar Conta</button>
+                <button type="reset" class="limpar">Limpar</button>
+            </div>
+        </form>
+    </section>
 
     <!-- Rodapé -->
 
